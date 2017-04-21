@@ -1,0 +1,65 @@
+﻿<table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+    <tr>
+        <td width="10"></td>
+        <td width="737" height="2" colspan="3" style="background-image:url(images/dot.gif);background-repeat:repeat-x"></td>
+        <td width="10"></td>
+    </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="00" bgcolor="#ffffff">
+    <tr>
+        <td width="10"></td>
+        <td width="215">
+            <table border="0" cellspacing="10" cellpadding="0px" height="100%">
+                <tr>
+                    <td bgcolor="#dddddd">
+                        <table border="0" cellpadding="10">
+                            <tr>
+                                <td style="font-family:Arial;font:10pt">
+                                    For more information:
+
+
+                                    {{#each pdf}}
+                                    <div class="pdf">
+                                        <a href="{{path}}" download>
+                                            {{name}}
+                                        </a>
+                                    </div>
+                                    {{/each}}
+
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mva">Most computers will open PDF documents automatically, but you may need to download Adobe Acrobat Reader. </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width="2" height="100" style="background-image:url(images/dot.gif);background-repeat:repeat-y"></td>
+        <td width="500">
+            <table border="0" cellspacing="10" cellpadding="0" height="100%" width="100%">
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table border="0" width="100%">
+                            <tr>
+                                <td colspan="2">
+                                    <span style="font-family:Arial;font:11pt">
+                                        Some of my {{name}} clients:
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                {{{clientList client}}}
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width="20"></td>
+    </tr>
+</table>

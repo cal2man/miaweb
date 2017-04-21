@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>MiaWebAWS</Name>
+    <RootNamespace>MiaWebAWS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fae7adb3-3fc4-4338-99eb-c3cb32ef2a8c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.js" />
+    <Compile Include="handlers\main.js" />
+    <Compile Include="routes.js" />
+    <Content Include="package.json" />
+    <Content Include="public\images\ccu_logo.gif" />
+    <Content Include="public\images\clients.gif" />
+    <Content Include="public\images\clients_o.gif" />
+    <Content Include="public\images\Copy of q03.gif" />
+    <Content Include="public\images\div.gif" />
+    <Content Include="public\images\dot.gif" />
+    <Content Include="public\images\exec_coaching.gif" />
+    <Content Include="public\images\exec_coaching_o.gif" />
+    <Content Include="public\images\facilitation.gif" />
+    <Content Include="public\images\facilitation_o.gif" />
+    <Content Include="public\images\firoelb_logo.gif" />
+    <Content Include="public\images\gy_line.gif" />
+    <Content Include="public\images\hypcert.jpg" />
+    <Content Include="public\images\lets_talk.gif" />
+    <Content Include="public\images\lets_talk_o.gif" />
+    <Content Include="public\images\logos\ccu_logo.gif" />
+    <Content Include="public\images\logos\designs-xl 120116 %282%29.xls" />
+    <Content Include="public\images\logos\firoelb_logo.gif" />
+    <Content Include="public\images\logos\hypcert.jpg" />
+    <Content Include="public\images\logos\logo_firo.png" />
+    <Content Include="public\images\logos\mbti_logo.gif" />
+    <Content Include="public\images\logos\msceit.bmp" />
+    <Content Include="public\images\logos\msceit.gif" />
+    <Content Include="public\images\logos\msceit_logo.gif" />
+    <Content Include="public\images\logos\Thumbs.db" />
+    <Content Include="public\images\logos\TKI.png" />
+    <Content Include="public\images\mbti_logo.gif" />
+    <Content Include="public\images\mia-foto.jpg" />
+    <Content Include="public\images\mia-trans.gif" />
+    <Content Include="public\images\mia-web.html" />
+    <Content Include="public\images\mia-web_01.gif" />
+    <Content Include="public\images\mia-web_02.gif" />
+    <Content Include="public\images\mia-web_03.gif" />
+    <Content Include="public\images\mia-web_04.gif" />
+    <Content Include="public\images\mia-web_06.gif" />
+    <Content Include="public\images\mia-web_07.jpg" />
+    <Content Include="public\images\mia-web_08.gif" />
+    <Content Include="public\images\mia-web_09.gif" />
+    <Content Include="public\images\mia-web_10.gif" />
+    <Content Include="public\images\mia-web_11.gif" />
+    <Content Include="public\images\mia-web_12.gif" />
+    <Content Include="public\images\mia-web_13.gif" />
+    <Content Include="public\images\mia-web_14.gif" />
+    <Content Include="public\images\mia-web_15.gif" />
+    <Content Include="public\images\mia-web_16.gif" />
+    <Content Include="public\images\mia-web_17.gif" />
+    <Content Include="public\images\mia-web_18.gif" />
+    <Content Include="public\images\mia-web_19.gif" />
+    <Content Include="public\images\mia-web_20.gif" />
+    <Content Include="public\images\mia-web_21.gif" />
+    <Content Include="public\images\mia-web_22.gif" />
+    <Content Include="public\images\mia-web_23.gif" />
+    <Content Include="public\images\mia-web_24.gif" />
+    <Content Include="public\images\mia-web_25.gif" />
+    <Content Include="public\images\mia_kennedy.gif" />
+    <Content Include="public\images\mia_sig.gif" />
+    <Content Include="public\images\msceit_logo.gif" />
+    <Content Include="public\images\pdf.gif" />
+    <Content Include="public\images\q01.gif" />
+    <Content Include="public\images\q02.gif" />
+    <Content Include="public\images\q03.gif" />
+    <Content Include="public\images\q04.gif" />
+    <Content Include="public\images\q05.gif" />
+    <Content Include="public\images\q06.gif" />
+    <Content Include="public\images\q07.gif" />
+    <Content Include="public\images\q08.gif" />
+    <Content Include="public\images\q09.gif" />
+    <Content Include="public\images\q10.gif" />
+    <Content Include="public\images\q11.gif" />
+    <Content Include="public\images\q12.gif" />
+    <Content Include="public\images\q13.gif" />
+    <Content Include="public\images\q14.gif" />
+    <Content Include="public\images\q15.gif" />
+    <Content Include="public\images\q16.gif" />
+    <Content Include="public\images\q17.gif" />
+    <Content Include="public\images\q18.gif" />
+    <Content Include="public\images\q19.gif" />
+    <Content Include="public\images\q20.gif" />
+    <Content Include="public\images\q21.gif" />
+    <Content Include="public\images\q22.gif" />
+    <Content Include="public\images\q23.gif" />
+    <Content Include="public\images\q24.gif" />
+    <Content Include="public\images\q25.gif" />
+    <Content Include="public\images\q26.gif" />
+    <Content Include="public\images\q27.gif" />
+    <Content Include="public\images\q28.gif" />
+    <Content Include="public\images\q29.gif" />
+    <Content Include="public\images\q30.gif" />
+    <Content Include="public\images\q31.gif" />
+    <Content Include="public\images\qth_c01.gif" />
+    <Content Include="public\images\qth_f01.gif" />
+    <Content Include="public\images\qth_t01.gif" />
+    <Content Include="public\images\qt_c01.gif" />
+    <Content Include="public\images\qt_f01.gif" />
+    <Content Include="public\images\qt_mia.gif" />
+    <Content Include="public\images\qt_t01.gif" />
+    <Content Include="public\images\quotes_lg.gif" />
+    <Content Include="public\images\quotes_mk.gif" />
+    <Content Include="public\images\spacer.gif" />
+    <Content Include="public\images\Thumbs.db" />
+    <Content Include="public\images\TKI.png" />
+    <Content Include="public\images\training.gif" />
+    <Content Include="public\images\training_o.gif" />
+    <Content Include="public\pdfs\Exec coaching brochure.pdf" />
+    <Content Include="public\pdfs\Facilitation brochure.pdf" />
+    <Content Include="public\pdfs\Resilience day.pdf" />
+    <Content Include="public\pdfs\Training brochure.pdf" />
+    <Content Include="public\pdfs\Vision day.pdf" />
+    <Content Include="public\stylesheets\common.css" />
+    <Content Include="public\stylesheets\style.styl" />
+    <Content Include="README.md" />
+    <Content Include="typings.json" />
+    <Content Include="views\coaching.handlebars" />
+    <Content Include="views\500.handlebars" />
+    <Content Include="views\404.handlebars" />
+    <Content Include="views\contact.handlebars" />
+    <Content Include="views\partials\collateral.handlebars" />
+    <Content Include="views\partials\navigation.handlebars" />
+    <Content Include="views\training.handlebars" />
+    <Content Include="views\facilitation.handlebars" />
+    <Content Include="views\home.handlebars" />
+    <Content Include="views\layouts\main.handlebars" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="handlers\" />
+    <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\images\logos\" />
+    <Folder Include="public\javascripts\" />
+    <Folder Include="public\pdfs\" />
+    <Folder Include="public\stylesheets\" />
+    <Folder Include="routes\" />
+    <Folder Include="typings\" />
+    <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\express-handlebars\" />
+    <Folder Include="typings\globals\express\" />
+    <Folder Include="typings\globals\jade\" />
+    <Folder Include="typings\globals\node\" />
+    <Folder Include="views\" />
+    <Folder Include="views\layouts\" />
+    <Folder Include="views\partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\express-handlebars\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\express\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\jade\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\index.d.ts" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

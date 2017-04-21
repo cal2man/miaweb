@@ -1,0 +1,26 @@
+.pdf
+{
+    PADDING-RIGHT: 0px;
+    BACKGROUND-POSITION: 0% 0%;
+    PADDING-LEFT: 0px;
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-IMAGE: url(\\images\\pdf.gif);
+    PADDING-BOTTOM: 3px;
+    MARGIN: 1px 0px 0px;
+    COLOR: #000000;
+    TEXT-INDENT: 20px;
+    PADDING-TOP: 0px;
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11pt
+}
+.mva
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
